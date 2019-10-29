@@ -11,7 +11,12 @@ Trash-Cli  // nice command line trashcan
 XLaunch: WSL GUI for apps
     https://www.cnblogs.com/andrewwang/p/11088163.html
 
+Powerline Front
+    https://github.com/powerline/fonts
+    * Set-ExecutionPolicy Bypass for power shell to run .sh scripte
 
+wsl-terminal 
+    https://github.com/goreliu/wsl-terminal
 --------------------------------------------------------
 
 zsh plugins 
