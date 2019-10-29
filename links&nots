@@ -1,0 +1,27 @@
+
+
+Midnight Commander 
+    -Theme 
+	-modarin256-defbg
+
+Trash-Cli  // nice command line trashcan
+    // includes following command: 
+    //  trash, trash-put, trash-restore, trash-rm, trash-empty 
+
+XLaunch: WSL GUI for apps
+    https://www.cnblogs.com/andrewwang/p/11088163.html
+
+
+--------------------------------------------------------
+
+zsh plugins 
+
+    git
+    zsh-syntax-highlighting
+        https://github.com/zsh-users/zsh-syntax-highlighting
+    zsh-autosuggestions
+        https://github.com/zsh-users/zsh-autosuggestions
+    autojump
+
+ZSH-windows theme clone link
+    git clone https://github.com/juliavallina/windows-zsh-theme.git
