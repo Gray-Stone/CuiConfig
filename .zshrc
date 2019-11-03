@@ -86,7 +86,7 @@ if [[ -n $SSH_CONNECTION ]]; then
   export EDITOR='code'
 else
   export EDITOR='code'
-# fi
+fi
 
 [[ -s /home/leogray/.autojump/etc/profile.d/autojump.sh ]] && source /home/leogray/.autojump/etc/profile.d/autojump.sh
 
@@ -106,7 +106,8 @@ else
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-eval $(thefuck --alias)
+alias fuck="thefuck"
+# eval $(thefuck --alias)
 
 unsetopt BG_NICE
 
