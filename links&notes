@@ -17,6 +17,15 @@ Powerline Front
 
 wsl-terminal 
     https://github.com/goreliu/wsl-terminal
+
+theFuck 
+    https://github.com/nvbn/thefuck
+        sudo apt update
+        sudo apt install python3-dev python3-pip python3-setuptools
+        sudo pip3 install thefuck
+    In .zshrc
+        eval $(thefuck --alias)
+
 --------------------------------------------------------
 
 zsh plugins 
