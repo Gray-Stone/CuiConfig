@@ -1,0 +1,13 @@
+VPS setup:
+    No password sudo 
+    /etc/sudoers
+    add "your_user_name ALL=(ALL) NOPASSWD: ALL" after "root ALL=(ALL)   ALL"
+
+--------------------------------------------------------
+
+Web deploy:
+	
+	nginx
+
+	React:
+		needs nodejs & npm
