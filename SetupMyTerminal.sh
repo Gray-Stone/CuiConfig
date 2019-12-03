@@ -20,13 +20,13 @@ echo "installing additional plugins: \n   - trash-cli \n   - theFuck (with pytho
 # install trash-cli 
 git clone https://github.com/andreafrancia/trash-cli.git
 cd trash-cli
-sudo python setup.py install
+python setup.py install
 
 #install python-3 for theFukc
-sudo apt install python3-dev python3-pip python3-setuptools
+apt install python3-dev python3-pip python3-setuptools
 
 #install theFuck
-sudo pip3 install thefuck
+pip3 install thefuck
 
 echo "switch to zsh"
 zsh
