@@ -43,5 +43,5 @@ echo "\n\n"
 pip3 install thefuck
 
 echo "\n \n \n switch to zsh"
-echo "who am i? "
+echo "whoami? "
 whoami
