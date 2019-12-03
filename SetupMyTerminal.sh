@@ -19,8 +19,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 
 echo "\n\n"
-
-cp .zshrc ~/.zshrc
+cp ./zshCUIconfig/.zshrc ~/.zshrc
 
 # for parts that needs to be done at home directory
 cd 
