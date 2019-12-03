@@ -17,7 +17,7 @@ ZSH_THEME="random"
 # looking in ~/.oh-my-zsh/themes/
 # An empty array have no effect
  ZSH_THEME_RANDOM_CANDIDATES=( 
-	"robbyrussell" "avit" "bira" "amuse" "windows-zsh-theme/windows")
+	"robbyrussell" "avit" "bira" "amuse")
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
