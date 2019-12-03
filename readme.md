@@ -4,7 +4,5 @@
 ## use autosetupscript:
 ```bash
 git clone https://github.com/Gray-Stone/zshCUIconfig.git
-cd zshCUIconfig
-sudo chmod +x SetupMyTerminal.sh  
-sudo ./SetupMyTerminal.sh
+sudo ./zshCUIconfig/SetupMyTerminal.sh
 ```
