@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/leogray/.oh-my-zsh"
+  export ZSH="/home/$USER/.oh-my-zsh"
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -17,7 +17,7 @@ ZSH_THEME="random"
 # looking in ~/.oh-my-zsh/themes/
 # An empty array have no effect
  ZSH_THEME_RANDOM_CANDIDATES=( 
-	"robbyrussell" "avit" "bira" "amuse" "windows-zsh-theme/windows")
+	"robbyrussell" "avit" "bira" "amuse")
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -68,7 +68,6 @@ plugins=(
   git
   zsh-syntax-highlighting
   zsh-autosuggestions
-  # autojump
   z
 )
 
@@ -88,7 +87,6 @@ else
   export EDITOR='code'
 fi
 
-[[ -s /home/leogray/.autojump/etc/profile.d/autojump.sh ]] && source /home/leogray/.autojump/etc/profile.d/autojump.sh
 
 
 # Compilation flags
@@ -109,8 +107,7 @@ fi
 alias fuck="thefuck"
 # eval $(thefuck --alias)
 
-unsetopt BG_NICE
 
 # for setup xLaunch 
-export DISPLAY=:0.0
-export LIBGL_ALWAYS_INDIRECT=1
+# export DISPLAY=:0.0
+# export LIBGL_ALWAYS_INDIRECT=1
