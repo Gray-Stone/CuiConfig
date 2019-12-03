@@ -35,7 +35,8 @@ zsh plugins
         https://github.com/zsh-users/zsh-syntax-highlighting
     zsh-autosuggestions
         https://github.com/zsh-users/zsh-autosuggestions
-    autojump
+    
+    z (for jump)
 
 ZSH-windows theme clone link
     git clone https://github.com/juliavallina/windows-zsh-theme.git
