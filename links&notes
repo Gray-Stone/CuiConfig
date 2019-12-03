@@ -1,4 +1,10 @@
 
+gdb 
+    install: 
+        sudo apt-get install build-essential gdb
+    debug c/c++
+        https://code.visualstudio.com/docs/cpp/config-wsl
+
 
 Midnight Commander 
     -Theme 
