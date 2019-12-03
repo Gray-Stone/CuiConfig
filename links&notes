@@ -2,6 +2,28 @@
 new sudo account (made from root)
     https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart
 
+remove user with it's home (from root)
+    deluser --remove-home newuser
+    https://www.digitalocean.com/community/tutorials/how-to-add-and-delete-users-on-ubuntu-16-04
+
+Push SSH key onto remote for easylogin
+    ssh-copy-id "user@hostname.example.com -p <port-number>"
+
+SUDO related:
+    # User privilege specification
+    root    ALL=(ALL:ALL) ALL
+    user1 ALL=(ALL) NOPASSWD:ALL
+    www-data ALL=(ALL) NOPASSWD:ALL
+
+    # Members of the admin group may gain root privileges
+    %admin ALL=(ALL) ALL
+
+    # Allow members of group sudo to execute any command
+    %sudo   ALL=(ALL:ALL) ALL
+
+
+--------------------------------------------------------
+
 gdb 
     install: 
         sudo apt-get install build-essential gdb
