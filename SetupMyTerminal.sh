@@ -4,6 +4,9 @@ echo "   - git \n   - syntax-highlighting \n   - autosuggestions \n   - z \n \n 
 #install zsh
 apt-get install zsh
 
+# install curl for oh-my-zsh
+apt install curl
+
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 

@@ -58,6 +58,8 @@ theFuck
         eval $(thefuck --alias)
 
 --------------------------------------------------------
+oh my ZSH install require curl. 
+    sudo apt-get install curl
 
 zsh plugins 
 
