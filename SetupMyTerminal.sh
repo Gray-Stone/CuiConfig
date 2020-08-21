@@ -29,18 +29,19 @@ cd
 
 echo "\n\n"
 
+#install python-3 for theFukc and trash-cli
+apt install python3-dev python3-pip python3-setuptools
+
+echo "\n\n"
+
 echo "installing additional plugins: \n   - trash-cli \n   - theFuck (with python3 and pip)"
 # install trash-cli 
 git clone https://github.com/andreafrancia/trash-cli.git
 cd trash-cli
-python setup.py install
+python3 setup.py install
 
 cd
 
-echo "\n\n"
-
-#install python-3 for theFukc
-apt install python3-dev python3-pip python3-setuptools
 
 echo "\n\n"
 
