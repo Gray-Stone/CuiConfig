@@ -2,10 +2,10 @@ echo "installing oh-my-zsh with plugins"
 echo "   - git \n   - syntax-highlighting \n   - autosuggestions \n   - z \n \n \n \n \n "
 
 #install zsh
-apt-get install zsh
+sudo apt-get install zsh
 
 # install curl for oh-my-zsh
-apt install curl
+sudo apt install curl
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
@@ -22,7 +22,7 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 
 echo "\n\n"
-cp ./zshCUIconfig/.zshrc ~/.zshrc
+cp ~/zshCUIconfig/.zshrc ~/.zshrc
 
 # for parts that needs to be done at home directory
 cd 
@@ -30,7 +30,7 @@ cd
 echo "\n\n"
 
 #install python-3 for theFukc and trash-cli
-apt install python3-dev python3-pip python3-setuptools
+sudo apt install python3-dev python3-pip python3-setuptools
 
 echo "\n\n"
 
@@ -38,7 +38,7 @@ echo "installing additional plugins: \n   - trash-cli \n   - theFuck (with pytho
 # install trash-cli 
 git clone https://github.com/andreafrancia/trash-cli.git
 cd trash-cli
-python3 setup.py install
+sudo python3 setup.py install
 
 cd
 
@@ -46,7 +46,7 @@ cd
 echo "\n\n"
 
 #install theFuck
-pip3 install thefuck
+sudo pip3 install thefuck
 
 echo "\n \n \n switch to zsh"
 echo "whoami? "
