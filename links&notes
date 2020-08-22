@@ -82,3 +82,8 @@ zsh plugins
 
 ZSH-windows theme clone link
     git clone https://github.com/juliavallina/windows-zsh-theme.git
+
+launch defualt with ZSH
+    chsh -s $(which zsh)
+    // use this command without sudo. 
+        https://askubuntu.com/questions/131823/how-to-make-zsh-the-default-shell
