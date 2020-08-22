@@ -1,6 +1,12 @@
 
 new sudo account (made from root)
+    
+    adduser username
+    usermod -aG sudo username
+    
     https://www.digitalocean.com/community/tutorials/how-to-create-a-sudo-user-on-ubuntu-quickstart
+
+    
 
 remove user with it's home (from root)
     deluser --remove-home newuser

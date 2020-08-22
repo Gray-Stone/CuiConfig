@@ -1,9 +1,17 @@
 VPS setup:
-    No password sudo 
-    /etc/sudoers
-    add "your_user_name ALL=(ALL) NOPASSWD: ALL" after "root ALL=(ALL)   ALL"
+    * new sudo account (made from root)
+    
+    adduser username
+    usermod -aG sudo username
+
+    
+    * No password sudo 
+    sudo nano /etc/sudoers
+
+    -> add "your_user_name ALL=(ALL) NOPASSWD: ALL" after "root ALL=(ALL)   ALL"
 
 Before running terminal setup script: 
+
     sudo apt-get update
     // git might not be installed: 
     sudo apt-get install git
