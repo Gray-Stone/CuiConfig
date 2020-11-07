@@ -6,7 +6,10 @@ VPS setup:
 
     
     * No password sudo 
-    sudo nano /etc/sudoers
+    //	https://linuxconfig.org/configure-sudo-without-password-on-ubuntu-20-04-focal-fossa-linux
+    
+    //sudo nano /etc/sudoers
+	sudo visudo
 
     -> add "your_user_name ALL=(ALL) NOPASSWD: ALL" after "root ALL=(ALL)   ALL"
 
