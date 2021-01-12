@@ -11,7 +11,7 @@ VPS setup:
     //sudo nano /etc/sudoers
 	sudo visudo
 
-    -> add "your_user_name ALL=(ALL) NOPASSWD: ALL" after "root ALL=(ALL)   ALL"
+    -> add "your_user_name ALL=(ALL) NOPASSWD: ALL" At very end so it doesn't get over wirtten.
 
 Before running terminal setup script: 
 

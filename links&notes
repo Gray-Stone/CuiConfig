@@ -63,6 +63,15 @@ theFuck
     In .zshrc
         eval $(thefuck --alias)
 
+Snap 
+    Software installed using Snap will show up under /snap/bin/ 
+    for example vscode installed with snap will be there. 
+
+PATH: 
+    Use softlink To add only one executable to path instead of adding many things to path:
+    ln -s {source-filename} {symbolic-filename}
+    and put the symbolic-file into a directory already in path like /user/bin/
+
 --------------------------------------------------------
 oh my ZSH install require curl. 
     sudo apt-get install curl
