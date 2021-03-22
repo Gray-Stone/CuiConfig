@@ -5,13 +5,13 @@ echo "   - git \n   - syntax-highlighting \n   - autosuggestions \n   - z \n \n 
 sudo apt-get update
 
 #Install Git
-sudo apt-get install git
+sudo apt-get -y install git
 
 # install curl for oh-my-zsh
-sudo apt install curl
+sudo apt -y install  curl
 
 #install zsh
-sudo apt-get install zsh
+sudo apt-get -y install  zsh
 
 
 # install oh-my-zsh
