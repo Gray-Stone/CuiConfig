@@ -8,7 +8,7 @@
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="random"
+ZSH_THEME="bira"
 #ZSH_THEME="windows-zsh-theme/windows"
 
 # Set list of themes to load
