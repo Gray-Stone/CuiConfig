@@ -5,4 +5,7 @@
 ```bash
 git clone https://github.com/Gray-Stone/zshCUIconfig.git
 ./zshCUIconfig/SetupMyTerminal.sh
+
+chsh -s $(which zsh)
+
 ```
