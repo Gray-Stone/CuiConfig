@@ -72,6 +72,15 @@ PATH:
     ln -s {source-filename} {symbolic-filename}
     and put the symbolic-file into a directory already in path like /user/bin/
 
+
+中文：
+    ubuntu server 等版本没有中文字体。用x11显示应用的时候会缺少字体
+
+    两种选项：
+        sudo apt-get install xfonts-wqy
+    
+        sudo  apt-get install language-pack-zh-hant language-pack-zh-hans
+
 --------------------------------------------------------
 oh my ZSH install require curl. 
     sudo apt-get install curl
