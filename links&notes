@@ -30,6 +30,11 @@ SUDO related:
 
 --------------------------------------------------------
 
+micro editor
+    curl https://getmic.ro | bash
+
+    sudo ln -s micro /usr/bin
+
 gdb 
     install: 
         sudo apt-get install build-essential gdb

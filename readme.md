@@ -1,11 +1,56 @@
-# Personal setup files and script for ubuntu CUI
- Document files and links for setting up a CUI with ZSH and some plugins
+# Personal setup stuff for ubuntu CUI
 
-## use autosetupscript:
+Document my personal experience on setting up ubuntu.
+
+## Setup micro editor and change sudo setting
+
+```zsh
+curl https://getmic.ro | bash ; sudo ./micro /etc/sudoers
+```
+make micro globally accessable
+
+```zsh
+sudo ln -s micro /usr/bin
+```
+
+## Setup commonly dependnet software and zsh, on-my-zsh:
+
+use script to do the following command in one shot:
+`./CuiConfig/InstallUpToZSH.sh`
+
 ```bash
-git clone https://github.com/Gray-Stone/zshCUIconfig.git
-./zshCUIconfig/SetupMyTerminal.sh
+# Install dependencies for to following installs. 
+sudo apt update; sudo apt -y install git; sudo apt -y install  curl;
 
-chsh -s $(which zsh)
+#Install zsh and oh-my-zsh
+sudo apt-get -y install  zsh; sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended;
 
+#install plugins
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+
+```
+
+### Set zsh as default shell 
+
+`chsh -s $(which zsh)`
+
+### replace the default .zshrc with custom one to get headstart. 
+
+`cp ~/CuiConfig/.zshrc ~/.zshrc`
+
+## Install Syncthing for quickly sync files over
+
+`./CuiConfig/InstallSyncthing.sh`
+
+`sudo apt-get install apt-transport-https"`
+
+### add syncthing to systemd
+
+Following command will make syncthing run in systemd as current user.
+```bash
+systemctl enable syncthing@${USER}.service
+systemctl start syncthing@${USER}.service
 ```
