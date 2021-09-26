@@ -49,19 +49,23 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 ### Set zsh as default shell 
 
-`chsh -s $(which zsh)`
+```
+chsh -s $(which zsh)
+```
 
 ### replace the default .zshrc with custom one to get headstart. 
 
-`cp ~/CuiConfig/.zshrc ~/.zshrc`
+```
+cp ~/CuiConfig/.zshrc ~/.zshrc
+```
 
 ## Install Syncthing for quickly sync files over
 
-`./CuiConfig/InstallSyncthing.sh`
+```
+./CuiConfig/InstallSyncthing.sh
+```
 
-Might also need this small bits of software
-
-`sudo apt-get install apt-transport-https"`
+Might also need this bit to make syncthing work `sudo apt-get install apt-transport-https"`
 
 ### add syncthing to systemd
 
