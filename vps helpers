@@ -1,6 +1,7 @@
 VPS setup:
     * new sudo account (made from root)
     
+	// adduser is a wrapper around useradd, with better interface
     adduser username
     usermod -aG sudo username
 

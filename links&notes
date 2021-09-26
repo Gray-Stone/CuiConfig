@@ -1,6 +1,7 @@
 
 new sudo account (made from root)
-    
+
+    # adduser is a wrapper around for useradd, but adduser has a more friendly usage
     adduser username
     usermod -aG sudo username
     
