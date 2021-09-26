@@ -46,10 +46,6 @@ Midnight Commander
     -Theme 
 	-modarin256-defbg
 
-Trash-Cli  // nice command line trashcan
-    // includes following command: 
-    //  trash, trash-put, trash-restore, trash-rm, trash-empty 
-
 XLaunch: WSL GUI for apps
     https://www.cnblogs.com/andrewwang/p/11088163.html
 
@@ -60,13 +56,6 @@ Powerline Front
 wsl-terminal 
     https://github.com/goreliu/wsl-terminal
 
-theFuck 
-    https://github.com/nvbn/thefuck
-        sudo apt update
-        sudo apt install python3-dev python3-pip python3-setuptools
-        sudo pip3 install thefuck
-    In .zshrc
-        eval $(thefuck --alias)
 
 Snap 
     Software installed using Snap will show up under /snap/bin/ 
@@ -85,6 +74,11 @@ PATH:
         sudo apt-get install xfonts-wqy
     
         sudo  apt-get install language-pack-zh-hant language-pack-zh-hans
+
+chkservice:
+    systemd interactive config tool 
+    sudo apt install chkservice 
+    https://github.com/linuxenko/chkservice
 
 --------------------------------------------------------
 oh my ZSH install require curl. 

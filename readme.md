@@ -13,7 +13,7 @@ Add `<USERNAME> ALL=(ALL) NOPASSWD:ALL` to set no passwd sudo
 make micro globally accessable
 
 ```zsh
-sudo ln -s micro /usr/bin
+sudo ln -s ${PWD}/micro /usr/bin
 ```
 
 ## To use scripts for the following steps, needs to clone the repo first 
