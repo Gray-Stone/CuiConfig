@@ -18,14 +18,19 @@ sudo ln -s micro /usr/bin
 
 ## To use scripts for the following steps, needs to clone the repo first 
 
-`git clone git@github.com:Gray-Stone/CuiConfig.git`
+```zsh
+git clone https://github.com/Gray-Stone/CuiConfig.git
+```
 
 Recomand clone into home dir
 
 ## Setup commonly dependnet software and zsh, on-my-zsh:
 
 use script to do the following command in one shot:
-`./CuiConfig/InstallUpToZSH.sh`
+
+```
+./CuiConfig/InstallUpToZSH.sh
+```
 
 ```bash
 # Install dependencies for to following installs. 
@@ -54,12 +59,14 @@ git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-m
 
 `./CuiConfig/InstallSyncthing.sh`
 
+Might also need this small bits of software
+
 `sudo apt-get install apt-transport-https"`
 
 ### add syncthing to systemd
 
 Following command will make syncthing run in systemd as current user.
 ```bash
-systemctl enable syncthing@${USER}.service
+systemctl enable syncthing@${USER}.service;\
 systemctl start syncthing@${USER}.service
 ```
