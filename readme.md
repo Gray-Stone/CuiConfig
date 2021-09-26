@@ -7,11 +7,20 @@ Document my personal experience on setting up ubuntu.
 ```zsh
 curl https://getmic.ro | bash ; sudo ./micro /etc/sudoers
 ```
+
+Add `<USERNAME> ALL=(ALL) NOPASSWD:ALL` to set no passwd sudo
+
 make micro globally accessable
 
 ```zsh
 sudo ln -s micro /usr/bin
 ```
+
+## To use scripts for the following steps, needs to clone the repo first 
+
+`git clone git@github.com:Gray-Stone/CuiConfig.git`
+
+Recomand clone into home dir
 
 ## Setup commonly dependnet software and zsh, on-my-zsh:
 
